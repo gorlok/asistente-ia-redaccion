@@ -1,0 +1,38 @@
+2025-05-10 18:36:46,133 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.102.224:5000
+2025-05-10 18:36:46,133 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 18:36:46,134 - werkzeug - INFO -  * Restarting with stat
+2025-05-10 18:36:46,275 - werkzeug - WARNING -  * Debugger is active!
+2025-05-10 18:36:46,368 - werkzeug - INFO -  * Debugger PIN: 138-328-659
+2025-05-10 18:36:54,474 - werkzeug - INFO - 127.0.0.1 - - [10/May/2025 18:36:54] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-10 18:36:54,496 - werkzeug - INFO - 127.0.0.1 - - [10/May/2025 18:36:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-10 18:37:55,604 - werkzeug - INFO -  * Detected change in '/home/plillia/projects/asistente-ia-redaccion/backend/config.py', reloading
+2025-05-10 18:37:55,631 - werkzeug - INFO -  * Restarting with stat
+2025-05-10 18:37:55,768 - werkzeug - WARNING -  * Debugger is active!
+2025-05-10 18:37:55,769 - werkzeug - INFO -  * Debugger PIN: 138-328-659
+2025-05-10 18:38:04,164 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.102.224:5000
+2025-05-10 18:38:04,164 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 18:38:04,164 - werkzeug - INFO -  * Restarting with stat
+2025-05-10 18:38:04,300 - werkzeug - WARNING -  * Debugger is active!
+2025-05-10 18:38:04,301 - werkzeug - INFO -  * Debugger PIN: 138-328-659
+2025-05-10 18:39:22,738 - werkzeug - INFO - 127.0.0.1 - - [10/May/2025 18:39:22] "OPTIONS /api/generate HTTP/1.1" 200 -
+2025-05-10 18:39:22,742 - __main__ - INFO - Procesando solicitud en modo 'mejorar' con 51 caracteres
+2025-05-10 18:39:46,553 - __main__ - INFO - Texto generado correctamente con 1186 caracteres
+2025-05-10 18:39:46,553 - werkzeug - INFO - 127.0.0.1 - - [10/May/2025 18:39:46] "POST /api/generate HTTP/1.1" 200 -
+2025-05-10 18:41:53,016 - werkzeug - INFO - 127.0.0.1 - - [10/May/2025 18:41:53] "OPTIONS /api/generate HTTP/1.1" 200 -
+2025-05-10 18:41:53,045 - __main__ - INFO - Procesando solicitud en modo 'resumir' con 603 caracteres
+2025-05-10 18:41:57,890 - __main__ - INFO - Texto generado correctamente con 379 caracteres
+2025-05-10 18:41:57,890 - werkzeug - INFO - 127.0.0.1 - - [10/May/2025 18:41:57] "POST /api/generate HTTP/1.1" 200 -
+2025-05-10 18:42:15,618 - werkzeug - INFO - 127.0.0.1 - - [10/May/2025 18:42:15] "OPTIONS /api/generate HTTP/1.1" 200 -
+2025-05-10 18:42:15,622 - __main__ - INFO - Procesando solicitud en modo 'traducir' con 603 caracteres
+2025-05-10 18:42:21,090 - __main__ - INFO - Texto generado correctamente con 669 caracteres
+2025-05-10 18:42:21,091 - werkzeug - INFO - 127.0.0.1 - - [10/May/2025 18:42:21] "POST /api/generate HTTP/1.1" 200 -
+2025-05-10 18:42:35,045 - werkzeug - INFO - 127.0.0.1 - - [10/May/2025 18:42:35] "OPTIONS /api/generate HTTP/1.1" 200 -
+2025-05-10 18:42:35,049 - __main__ - INFO - Procesando solicitud en modo 'continuar' con 603 caracteres
+2025-05-10 18:43:03,867 - __main__ - INFO - Texto generado correctamente con 1745 caracteres
+2025-05-10 18:43:03,867 - werkzeug - INFO - 127.0.0.1 - - [10/May/2025 18:43:03] "POST /api/generate HTTP/1.1" 200 -
