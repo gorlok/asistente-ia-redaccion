@@ -1,6 +1,6 @@
 # Asistente IA de Redacción
 
-Este proyecto consiste en una aplicación web que actúa como asistente para la redacción de textos utilizando Inteligencia Artificial. La aplicación consta de un componente frontend en React y una API backend en Python que se conecta a un servidor Ollama local para realizar tareas de procesamiento de texto usando el modelo Llama 3.3.
+Este proyecto consiste en una aplicación web que actúa como asistente para la redacción de textos utilizando Inteligencia Artificial. La aplicación consta de un componente frontend en React y una API backend en Python que se conecta a un servidor Ollama local para realizar tareas de procesamiento de texto usando el modelo Llama 3.2.
 
 ## Características
 
@@ -15,7 +15,7 @@ Este proyecto consiste en una aplicación web que actúa como asistente para la 
 1. **Node.js y npm** - Para ejecutar la aplicación frontend.
 2. **Python 3.7+** - Para la API backend.
 3. **Ollama** - Instalado y configurado localmente.
-4. **Modelo Llama 3.3** - Descargado en Ollama.
+4. **Modelo Llama 3.2** - Descargado en Ollama.
 
 ## Instalación
 
@@ -31,10 +31,10 @@ curl -fsSL https://ollama.com/install.sh | sh
 # Descargar el instalador desde https://ollama.com/download
 ```
 
-Luego, descarga el modelo Llama 3.3:
+Luego, descarga el modelo Llama 3.2:
 
 ```bash
-ollama pull llama3.3
+ollama pull llama3.2
 ```
 
 ### 2. Configurar el Backend (API Python)

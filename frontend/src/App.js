@@ -12,7 +12,7 @@ function App() {
         <TextAssistant />
       </main>
       <footer style={{ padding: '1rem', textAlign: 'center', fontSize: '0.875rem', color: '#4a5568', backgroundColor: '#f0f4f8', borderTop: '1px solid #ddd' }}>
-        &copy; {new Date().getFullYear()} - Asistente IA de Redacción con Llama 3.3
+        &copy; {new Date().getFullYear()} - Asistente IA de Redacción con Llama 3.2
       </footer>
     </div>
   );
