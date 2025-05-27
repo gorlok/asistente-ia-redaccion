@@ -25,11 +25,8 @@ source venv/bin/activate
 
 # Instalar dependencias
 echo "Instalando dependencias..."
-pip install -r requirements.txt
-
-# Dar permisos de ejecución a run.py
-chmod +x run.py
+pip install -r backend/requirements.txt
 
 # Iniciar el servidor API
 echo "Iniciando el servidor API..."
-python run.py
+python backend/run.py

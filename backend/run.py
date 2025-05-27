@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 def check_ollama_installed():
     """Verifica si Ollama está instalado en el sistema"""
     try:
-        result = subprocess.run(['ollama', 'version'], 
+        result = subprocess.run(['ollama', '-v'], 
                               stdout=subprocess.PIPE, 
                               stderr=subprocess.PIPE,
                               text=True)
